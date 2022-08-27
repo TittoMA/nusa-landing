@@ -15,7 +15,7 @@ function HeroSection() {
         </h2>
         <a
           href="#product"
-          className="bg-green-500 opacity-75 px-8 py-4 text-white font-bold rounded-full shadow-lg shadow-green-800/25 group hover:bg-green-300 hover:text-green-900"
+          className="bg-green-500 opacity-75 px-8 py-4 text-white font-bold rounded-full shadow-lg shadow-green-800/25 group hover:bg-green-300 hover:text-green-900 hover:scale-105 transition-transform"
         >
           <ShoppingBagIcon
             className="h-6 w-6 mr-2 text-white inline
@@ -26,8 +26,8 @@ function HeroSection() {
       </div>
 
       <div className="mt-16 flex grow justify-center items-center relative z-10 md:mt-0">
-        <div className="flex relative before:block before:bg-yellow-300 before:rounded-2xl before:absolute before:inset-0 before:-rotate-12 before:z-[-1]">
-          <div className="backdrop-blur-sm rounded-2xl bg-yellow-200/75 -lg px-20 py-10 shadow-xl">
+        <div className="flex relative before:block before:bg-yellow-300 before:rounded-2xl before:absolute before:inset-0 before:-rotate-12 before:z-[-1] before:hover:rotate-[16deg] before:transition-transform">
+          <div className="backdrop-blur-sm rounded-2xl bg-yellow-200/75 -lg px-20 py-10 shadow-xl hover:rotate-2 transition-transform">
             <img
               className="w-64 m-0"
               src={nusaMockup}

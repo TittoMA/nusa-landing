@@ -54,7 +54,8 @@ function ProductSection() {
                   <a
                     href="https://wa.me/6282335958535?text=Hai!%20saya%20tertarik%20untuk%20membeli%20produk%20Nusa%20Susun%20Menara%20Balok%20yang%20anda%20jual"
                     target="_blank"
-                    className="inline-block cursor-pointer bg-green-500 px-4 py-3 opacity-75 shadow-lg shadow-green-500/50 text-white font-semibold rounded-full group hover:bg-green-300 hover:text-green-900"
+                    rel="noopener noreferrer"
+                    className="inline-block cursor-pointer bg-green-500 px-4 py-3 opacity-75 shadow-lg shadow-green-500/50 text-white font-semibold rounded-full group hover:bg-green-300 hover:text-green-900 hover:scale-105 transition-transform"
                   >
                     <ShoppingBagIcon className="h-6 w-6 mr-2 text-white inline group-hover:text-green-900" />
                     Beli Sekarang
