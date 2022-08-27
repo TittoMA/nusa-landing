@@ -7,7 +7,7 @@ function FeatureCard({ icon, text }) {
         <div className="bg-amber-700 -mt-6 p-4 border-4 border-[#f2f2f4] rounded-full">
           {icon}
         </div>
-        <h2 className="text-lg text-center font-medium">{text}</h2>
+        <h2 className="text-base text-center font-medium md:text-lg">{text}</h2>
       </div>
     </div>
   );

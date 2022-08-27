@@ -27,7 +27,7 @@ function FeaturesSection() {
               <div className="bg-amber-700 p-2 rounded-full">
                 <GiftIcon className="h-10 w-10 text-yellow-100 inline" />
               </div>
-              <h2 className="text-lg font-medium">
+              <h2 className="text-base md:text-lg font-medium">
                 Tampilan produk <br /> yang menarik.
               </h2>
             </div>
@@ -36,7 +36,7 @@ function FeaturesSection() {
               <div className="bg-amber-700 p-2 rounded-full">
                 <QrCodeIcon className="h-10 w-10 text-yellow-100 inline" />
               </div>
-              <h2 className="text-lg font-medium">
+              <h2 className="text-base md:text-lg font-medium">
                 Kode QR yang terhubung <br />
                 ke website.
               </h2>
@@ -70,9 +70,9 @@ function FeaturesSection() {
           yang berisi:
         </h1>
 
-        <div className="flex flex-col-reverse gap-16 mt-4 md:flex-row md:items-center">
+        <div className="flex flex-col-reverse gap-8 mt-4 md:gap-16 md:flex-row md:items-center">
           <div className="basis-2/5 space-y-6 my-auto">
-            <h1 className="block text-lg text-center font-medium md:hidden">
+            <h1 className="block text-base text-center font-medium md:hidden">
               Permainan Nusa Susun Menara Balok terintegrasi dengan kode QR yang
               berisi:
             </h1>
