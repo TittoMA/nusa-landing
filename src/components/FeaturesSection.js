@@ -73,8 +73,8 @@ function FeaturesSection() {
         <div className="flex flex-col-reverse gap-16 mt-4 md:flex-row md:items-center">
           <div className="basis-2/5 space-y-6 my-auto">
             <h1 className="block text-lg text-center font-medium md:hidden">
-              Permainan Nusa Susun Menara Balok <br /> terintegrasi dengan kode
-              QR yang berisi:
+              Permainan Nusa Susun Menara Balok terintegrasi dengan kode QR yang
+              berisi:
             </h1>
 
             <FeatureCard

@@ -6,7 +6,7 @@ function ProductSection() {
   return (
     <section id="product" className="px-[10%] py-16 ">
       <h1 className="text-yellow-900 text-4xl font-extrabold">
-        Pesan Nusa Susun Menara Balok
+        Beli Nusa Susun Menara Balok
       </h1>
       <hr className="w-32 mt-4 border-4 border-yellow-900 rounded-lg" />
 
