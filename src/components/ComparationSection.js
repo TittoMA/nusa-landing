@@ -5,7 +5,7 @@ function ComparationSection() {
   return (
     <section
       id="comparation"
-      className="px-[10%] py-16 bg-yellow-300 z-10 relative"
+      className="px-[10%] py-16 bg-amber-300 z-10 relative"
     >
       <h1 className="text-center text-yellow-900 text-4xl font-extrabold">
         Perbandingan dengan Produk Sejenis

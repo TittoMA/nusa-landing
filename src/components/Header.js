@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import logo from "../assets/images/nusa-logo.png";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import { Link, NavLink } from "react-router-dom";
+import { NavHashLink } from "react-router-hash-link";
 
 function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -14,7 +16,9 @@ function Header() {
       <nav className="flex flex-wrap bg-amber-700 shadow-2xl px-[10%] py-4 items-center">
         <div className="w-full flex justify-between items-center md:w-auto">
           <div className="md:w-auto shrink-0">
-            <img className="w-32" src={logo} alt="Nusa_logo" />
+            <Link to="/">
+              <img className="w-32" src={logo} alt="Nusa_logo" />
+            </Link>
           </div>
           {!isNavOpen ? (
             <button onClick={() => toggleNavbar()} className="md:hidden">
@@ -34,44 +38,47 @@ function Header() {
           }
         >
           <li>
-            <a
-              className="text-yellow-100 transition-all duration-100 hover:border-b-2 hover:border-yellow-300"
-              href="/"
+            <NavLink
+              className={({ isActive }) =>
+                (isActive ? "border-b-2 border-yellow-300" : "") +
+                " text-yellow-100 transition-all duration-100 hover:border-b-2 border-yellow-300"
+              }
+              to="/"
             >
               Beranda
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a
+            <NavHashLink
               className="text-yellow-100 transition-all duration-100 hover:border-b-2 hover:border-yellow-300"
-              href="#about"
+              to="/#about"
             >
               Tentang
-            </a>
+            </NavHashLink>
           </li>
           <li>
-            <a
+            <NavHashLink
               className="text-yellow-100 transition-all duration-100 hover:border-b-2 hover:border-yellow-300"
-              href="#feature"
+              to="/#feature"
             >
               Fitur
-            </a>
+            </NavHashLink>
           </li>
           <li>
-            <a
+            <NavHashLink
               className="text-yellow-100 transition-all duration-100 hover:border-b-2 hover:border-yellow-300"
-              href="#comparation"
+              to="/#comparation"
             >
               Keunggulan
-            </a>
+            </NavHashLink>
           </li>
           <li>
-            <a
+            <NavHashLink
               className="text-yellow-100 transition-all duration-100 hover:border-b-2 hover:border-yellow-300"
-              href="#product"
+              to="/#product"
             >
               Pesan
-            </a>
+            </NavHashLink>
           </li>
         </ul>
       </nav>

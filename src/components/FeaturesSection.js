@@ -1,6 +1,6 @@
 import React from "react";
 import FeatureCard from "./FeatureCard";
-import nusaProductImg from "../assets/images/mockup-kemasan2.png";
+import nusaProductImg from "../assets/images/mockup-kemasan.png";
 import blobImg from "../assets/images/blob.png";
 import qrImg2 from "../assets/images/qr2.png";
 import {
@@ -14,7 +14,7 @@ import {
 function FeaturesSection() {
   return (
     <section id="feature">
-      <div className="bg-yellow-300 px-[10%] py-16 relative z-10">
+      <div className="bg-amber-300 px-[10%] py-16 relative z-10">
         <div className="flex flex-col-reverse gap-8 md:flex-row">
           <div className="hidden lg:basis-[30%] lg:block lg:shrink-0">
             <div className="bg-white/60 backdrop-blur-sm px-14 py-5 shadow-xl rounded-xl">
