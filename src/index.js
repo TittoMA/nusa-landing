@@ -6,6 +6,7 @@ import App from "./App";
 import OrderLinks from "./routes/OrderLinks";
 import MainPage from "./routes/MainPage";
 import ScrollToTop from "./components/ScrollToTop";
+import "animate.css/animate.min.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

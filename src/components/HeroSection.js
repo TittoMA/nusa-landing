@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <div className="md:flex md:gap-10 px-[10%] py-16 bg-gradient-to-r from-yellow-200 to-white">
       <div className="flex flex-col justify-center items-start md:basis-3/5 lg:basis-2/5">
-        <h1 className="text-yellow-800 mb-4 text-5xl font-extrabold">
+        <h1 className="text-amber-800 mb-4 text-5xl font-extrabold">
           Nusa <br /> Susun Menara Balok
         </h1>
         <h2 className="mb-8 text-lg">
